@@ -26,7 +26,7 @@ public class GreetingController {
         messagingTemplate.convertAndSendToUser(
                 "1",
                 "/queue/greetings",
-                greeting.getContent());
+                greeting);
 
         System.out.println(greeting.getContent());
 
